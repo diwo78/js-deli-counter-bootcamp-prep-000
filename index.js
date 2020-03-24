@@ -8,7 +8,7 @@ function nowServing(x){
     return "There is nobody waiting to be served!"
   } else {
     let name = x[0];
-    x.slice(0)
+    x.splice(0,1)
     return `Currently serving ${name}.`
   }
 }
